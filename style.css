@@ -1,0 +1,116 @@
+body{
+    margin:0%;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+.left{
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height:800px;
+    background-color: rgb(26, 19, 19);
+    z-index: 1;
+}
+.items1{
+    height: 20px;
+    width: 20px;
+}
+.box-left1{
+    text-align: center;
+    margin: 15% 0%;
+}
+/* .box-left2{
+    box-sizing:content-box;
+    padding-left: 20%;
+    padding-top: 20px;
+} */
+.box-left3{
+    color: aliceblue;
+    height: fit-content;
+    padding: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+}
+.subs{
+    display: flex;
+}
+.items2{
+    width: 15%;
+}
+/* center */
+.center{
+    width: 60%;
+    height: 770px;
+    position: absolute;
+    left:15%;
+    padding:15px 5%;
+    background-color: rgb(31, 25, 25);
+}
+.center1{
+    height: 500px;
+}
+.center2{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.float{
+    position:relative;
+    translate: 0px -250%;
+    z-index: 2;
+}
+.center3{
+    height: auto;
+    background: rgb(73, 67, 67);
+    padding:2%;
+    border-radius: 10px;
+}
+.buttons3{
+    background-color: beige;
+    color: black;
+    text-align: center;
+    padding: 7px;
+    margin-top: 6px;
+    border-radius: 15px;
+    height: 30%;
+}
+.buttons3:hover{
+    background-color: rgb(206, 22, 22);
+    color: aliceblue;
+    transition: 0.66s;
+}
+.buttons1{
+    translate: 0px -10px ;
+}
+#profile:hover{
+    height: 80px;
+    transition: 0.33s;
+    z-index: 2;
+}
+/* right */
+.right{
+    width: 15%;
+    height: 800px;
+    position: absolute;
+    left : 85%;
+    background-color: rgb(31, 25, 25);
+}
+.r{
+    margin: 10px;
+    margin-top: 40px;
+}
+.right1{
+    height: fit-content;
+    width: max-content;
+}
+/* hover */
+.subs:hover{
+    background-color: rgb(87, 77, 77);
+    transition: 0.86s;
+}
+.r:hover{
+    background-color: rgb(87, 77, 77);
+    transition: 0.86s;
+}
