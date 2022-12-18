@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    background-color: aqua;
+}
+.top{
+    display: flex;
+    height:50px;
+    border: 2px;
+    flex-direction: row;
+    background-color:aliceblue;
+    justify-content: center;
+}
+.ev{
+    margin: 0px 3%;
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.space{
+    
+}
