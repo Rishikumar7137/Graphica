@@ -3,15 +3,13 @@ body{
     background-image: url(images/colorful.jpg);
     background-size: 100% auto;
 }
-.logo > img{
+.logo img{
     border-radius: 50%;
     padding-top: 25px;
-
 }
 .top{
     display: flex;
     height:70px;
-    border: 2px;
     flex-direction: row;
     /* background-image: linear-gradient(aliceblue,#053AAE); */
     justify-content: space-evenly;
@@ -22,13 +20,13 @@ body{
 }
 .ev{
     position: relative;
-    margin:  15px 3%;
+    /* margin:  15px 3%; */
     padding: 10px 15px;
     padding-bottom: 15px;
     height: 20px;
     background-color: rgba(255, 88, 16, 0.726);
     color: white;
-    border-radius: 10px;
+    border-left: 2px solid black;
     text-align: center;
 }
 a { color: inherit; text-decoration: inherit; } 
@@ -132,4 +130,7 @@ h2{
     border-radius: 25px;
     background-color: aliceblue;
     text-align: center;
+}
+.pic img{
+    border-radius: 35px;
 }
