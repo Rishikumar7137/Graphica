@@ -1,0 +1,6 @@
+.ev:hover{
+    background-color: aliceblue;
+    color: black;
+    font-weight: bold;
+    transition: 0.23s;
+}
