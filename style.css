@@ -37,6 +37,8 @@ body{
     .top a{
         width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
         transition: .83s;
+        border-bottom: 1px solid black;
+        border-left: 0px solid black;
     }
 }
 a { color: inherit; text-decoration: inherit; } 
