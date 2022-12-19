@@ -57,11 +57,14 @@ a { color: inherit; text-decoration: inherit; }
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .about{
-    padding-left: 5%;
-    padding-right: 5%;
-    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-left: 4%;
+    margin-right: 4%;
     font-size: 25px;
-    width: 100%;
+    width: 86%;
+    border-radius: 25px;
+    border:3px solid white; 
     background-color: rgba(0, 0, 0, 0.5);
     padding-bottom: 25px;
 }
